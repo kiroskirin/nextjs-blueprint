@@ -1,0 +1,10 @@
+[ignore]
+.*/node_modules/*
+.*/.storybook/*
+
+[include]
+
+[libs]
+./flow-typed
+
+[options]

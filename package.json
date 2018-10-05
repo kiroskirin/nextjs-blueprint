@@ -1,0 +1,53 @@
+{
+  "name": "cookclient",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url static/styles/bulma.scss static/styles/bulma.min.css --watch --output-style compressed",
+    "storybook": "start-storybook -p 9001 -c .storybook -s static",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "flow": "flow",
+    "jest": "./node_modules/.bin/jest",
+    "test": "NODE_ENV=test jest"
+  },
+  "dependencies": {
+    "next": "^7.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "styled-components": "^3.4.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/addon-notes": "^3.4.11",
+    "@storybook/addons": "^3.4.11",
+    "@storybook/react": "^3.4.11",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-styled-components": "^1.7.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "bulma": "^0.7.1",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^2.7.0",
+    "express": "^4.16.3",
+    "flow-bin": "^0.81.0",
+    "jest": "^23.6.0",
+    "node-sass": "^4.9.3",
+    "prettier": "1.14.3",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.5.2",
+    "redux-devtools-extension": "^2.13.5"
+  }
+}
