@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url static/styles/bulma.scss static/styles/bulma.min.css --watch --output-style compressed",
+    "bulma": "node-sass --omit-source-map-url static/styles/bulma.scss static/styles/bulma.min.css --watch --output-style compressed",
+    "blueprint": "console.log(`Blueprint Scripts`)",
     "storybook": "start-storybook -p 9001 -c .storybook -s static",
     "dev": "next",
     "build": "next build",
