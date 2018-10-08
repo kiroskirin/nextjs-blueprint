@@ -41,6 +41,15 @@ export default class MyDocument extends Document {
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-status-bar-style" content="black" />
           <link rel="stylesheet" href="static/styles/bulma.min.css" />
+          <link href="https://unpkg.com/normalize.css@^7.0.0" rel="stylesheet" />
+          <link
+            href="https://unpkg.com/@blueprintjs/core@^3.0.0/lib/css/blueprint.css"
+            rel="stylesheet"
+          />
+          <link
+            href="https://unpkg.com/@blueprintjs/icons@^3.0.0/lib/css/blueprint-icons.css"
+            rel="stylesheet"
+          />
           {this.props.styleTags}
         </Head>
         <body>

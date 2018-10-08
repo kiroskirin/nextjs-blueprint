@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Button } from '@blueprintjs/core';
 
 import Page from '../src/components/Page';
 import Header from '../src/layout/Header';
@@ -13,6 +14,7 @@ const Index = () => (
     <ContentContainer>
       <Header>
         <p>Hello NextJs</p>
+        <Button icon="annotation">Hello Blueprint JS</Button>
       </Header>
     </ContentContainer>
   </Page>
